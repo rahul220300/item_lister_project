@@ -34,4 +34,4 @@ subarraySum(arr, n, s)
        return (endIndex == -1) ? [endIndex] :  [startIndex + 1, endIndex];
     }
 
-    
+
