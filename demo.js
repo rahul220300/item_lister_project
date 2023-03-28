@@ -27,10 +27,15 @@
 // titlepage[0].style.color="green";
 
 
-var li= document.getElementsByTagName("li");
-li[2].textcontent="Rahul";
-li[2].style.fontWeight="bold";
-li[2].style.backgroundColor="green";
-for(var i=0;i<li.length;i++){
-  li[i].style.fontWeight="bold";
-}
+// var li= document.getElementsByTagName("li");
+// li[2].textcontent="Rahul";
+// li[2].style.fontWeight="bold";
+// li[2].style.backgroundColor="green";
+// for(var i=0;i<li.length;i++){
+//   li[i].style.fontWeight="bold";
+// }
+
+var items = document.querySelector(".list-group-item:nth-child(2)");
+items.style.backgroundColor="green";
+var visible = document.querySelector(".list-group-item:nth-child(3)");
+visible.style.visibility="hidden";
