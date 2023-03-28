@@ -16,18 +16,21 @@
 
 // console.log(document.getElementById("header-title"));
  //var headerTitle=document.getElementById("header-title");
- var header = document.getElementById("main-header");
+//  var header = document.getElementById("main-header");
 // headerTitle.textContent="Hello";
 // headerTitle.innerText="GoodBye";
-header.style.borderBottom="solid 3px #000";
+// header.style.borderBottom="solid 3px #000";
     
-var titlepage = document.getElementsByClassName("list-group");
+// var titlepage = document.getElementsByClassName("list-group");
 
-titlepage[0].style.fontWeight="bold";
-titlepage[0].style.color="green";
-
-
+// titlepage[0].style.fontWeight="bold";
+// titlepage[0].style.color="green";
 
 
-
-
+var items= document.getElementsByClassName("list-group-item");
+items[2].textcontent="Rahul";
+items[2].style.fontWeight="bold";
+items[2].style.backgroundColor="green";
+for(var i=0;i<items.length;i++){
+  items[i].style.fontWeight="bold";
+}
